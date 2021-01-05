@@ -1,7 +1,7 @@
 FROM alpine:3.6
 
 ENV VER=2.11.1 METHOD=aes-256-cfb PASSWORD=yzqyzq1234
-ENV TLS_PORT=443 PORT=80
+ENV TLS_PORT=4433 PORT=8080
 
 RUN apk add --no-cache curl \
   && curl -sL https://github.com/xiaokaixuan/gost-heroku/releases/download/v${VER}/gost_${VER}_linux_amd64.tar.gz | tar zx \
