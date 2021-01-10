@@ -4,7 +4,7 @@
 
 > 2. 客户端本地代理，编辑`client.vbs`，后双击执行，或者直接运行命令。
 > ```
-> Const CommandLine = "gost.exe -L=:1080 -F=ss+mwss://chacha20:ss123456@appname.herokuapp.com:443"
+> Const CommandLine = "gost.exe -L=:1080 -F=ss+mwss://aes-256-cfg:yzqyzq1234@appname.herokuapp.com:443"
 > ```
 
 > 3. Chrome安装[SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega/releases)插件，配置[GFWList](https://github.com/gfwlist/gfwlist)。
