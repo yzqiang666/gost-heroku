@@ -1,6 +1,6 @@
 FROM alpine:3.6
 
-ENV VER=2.11.1 METHOD=chacha20 PASSWORD=yzqyzq1234
+ENV VER=2.11.1 METHOD=chacha20 PASSWORD=ss123456
 ENV TLS_PORT=4433 PORT=8080
 
 RUN apk add --no-cache curl \
