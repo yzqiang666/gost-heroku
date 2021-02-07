@@ -10,6 +10,6 @@ RUN apk add --no-cache curl \
 WORKDIR /gost
 EXPOSE ${TLS_PORT} $PORT
 
-CMD exec /gost/gost -L=ss+mws://$METHOD:$PASSWORD@:$PORT
+CMD exec /gost/gost -L=ss+mws://$METHOD:$PASSWORD@:$PORT -L=https://:$TLS_PORT
 
 
